@@ -11,5 +11,10 @@
           "src": "/(.*)",
           "dest": "/server.js"
       }
-  ]
+  ],
+  "config": {
+    "includeFiles": [
+      "swagger.yaml"
+    ]
+  }
 }
