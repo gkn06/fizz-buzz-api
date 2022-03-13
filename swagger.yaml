@@ -1,0 +1,23 @@
+tags:
+- name: fizz-buzz
+  description: fizz-buzz API
+
+paths:
+# [GET] fizz-buzz
+  /api/fizz-buzz/{count}:
+    get:
+      tags:
+      - fizz-buzz
+      summary: Get All Numbers from 1 to count 
+      parameters:
+      - name: count
+        description: Maximum count
+        in: path
+        type: integer
+        format: int64
+        required: true
+      responses:
+        200:
+          description: 'OK'
+        500:
+          description: 'Server Error'
