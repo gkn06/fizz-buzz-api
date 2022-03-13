@@ -17,10 +17,22 @@ The application exposes a few REST endpoints
 # Run the app locally
 
  - `npm install`
- - `npm start` - This will start the application and run on port 8080
- - `npm run dev` - This will start the application in development mode
+ - `npm start` - Starts the application and run on port 8080
+ - `npm run dev` - Starts the application in development mode
  - `npm run test` - Runs all the test cases - unit test cases + integration tests
 
-# Run the app - Swagger UI 
+# Swagger UI 
 
 - `http://localhost:8080/swagger-ui`
+
+
+# Application is Hosted in Vercel
+
+- https://fizz-buzz-api.vercel.app/api/fizz-buzz/:count
+
+> Example:- https://fizz-buzz-api.vercel.app/api/fizz-buzz/10
+
+## Note
+
+- Vercel has some issue with handling static files. So swagger UI is not loaded properly.
+ `https://fizz-buzz-api.vercel.app/swagger-ui` - Won't work due to above issue.
