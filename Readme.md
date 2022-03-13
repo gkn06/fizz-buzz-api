@@ -19,7 +19,7 @@ The application exposes a few REST endpoints
  - `npm install`
  - `npm start` - This will start the application and run on port 8080
  - `npm run dev` - This will start the application in development mode
- - `npm run test` - Runs all the test cases
+ - `npm run test` - Runs all the test cases - unit test cases + integration tests
 
 # Run the app - Swagger UI 
 
